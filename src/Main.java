@@ -1,12 +1,12 @@
 public class Main {
-
+    //Proyecto Futuro realizado por Ángel Maciá García.
     public static void main(String[] args) {
         int valor1 = Integer.parseInt(args[1]);
         int valor2 = Integer.parseInt(args[2]);
         System.out.println("Estudiante " + args[0] + " : ");
         System.out.println(veredicto(valor1,valor2));
     }
-    static String veredicto (int valor1, int valor2) {
+    private static String veredicto (int valor1, int valor2) {
         if (valor1==(valor2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         }
